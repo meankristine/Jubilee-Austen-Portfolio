@@ -1,0 +1,134 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+    border: 1px;
+}
+
+/***** HEADER *****/
+header {
+    padding: 5px;
+}
+
+header h1 {
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 0 0 20px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 25px;
+    color: #77a466;
+    font-weight: 700;
+}
+
+header img {
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+}
+
+/***** ABOUT *****/
+#about h2 {
+    color: #77a466;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/***** CONTENT *****/
+#specials, #reviews, #contact {
+    border-top: 1px solid #dedbdc;
+}
+
+#specials h3, #reviews h3, #contact h3 {
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#specials {
+    text-align: left;
+}
+
+#specials p a {
+    text-decoration: none;
+    color: #77a466;
+    line-height: 25px;
+}
+
+#reviews {
+    text-align: center;
+}
+
+#reviews p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#contact{
+    text-align: right;
+}
+
+#contact p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/***** FOOTER *****/
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+footer h2 span {
+    font-family: "Pacifico", cursive;
+    color: #77a466;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;;
+    text-transform: lowercase;
+}
